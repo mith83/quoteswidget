@@ -1,0 +1,23 @@
+      .SendButton {background-color:gold; color:black; height:25px; width:50px; padding:0; margin:5px; border: 1px solid black; border-radius:3px;   }
+      .SendButton:hover {background-color:blue; color:white;}
+      .quoteswidget {background-color: black;border: 1px solid black;color:white;display: block;max-width:427px;max-height:640px;width:100%;margin: 0;position: relative;left:0;top:0;visibility: inherit;z-index: 90;overflow:hidden;}
+      .sharing iframe {position:absolute;border:none;overflow:hidden;z-index:95;bottom:20px;right:30px;}
+      .cts, .cts button {margin: 0;z-index:105;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);width:100%;height:50px;}
+      .cts button {border: 1px solid black;border-radius:3px;background-color:gold; color:black;font-size:medium; width:40% !important;}
+      .cts button:hover {background-color:blue; color:white;}
+      .quoteswidget .sharing {position: absolute;bottom: 10px;z-index:101;width:50px;height:30px;right:10px;overflow:hidden;}
+      .sharing .fa {position:relative;border:none;display:inline;overflow:hidden;z-index:125;color:lightgrey;font-size:25px;margin: 2px 12px;}
+      .sharing .fa-facebook:hover {color:#1778F2;}
+      .sharing .fa-twitter:hover {color:#1DA1F2;}
+      .sharing .fa-download:hover {color:#25D366;}
+      .sharing .fa-share-alt:hover {color:#FC4F08;}
+      .loader {border: 5px solid grey;border-top: 5px solid white;border-radius: 50%;width: 30px;height: 30px;animation: spin 1s linear infinite;position:relative;display:none;top:10px;left:12px;}
+      .loadertxt {position:relative;display:none;top:-25px;left:60px;text-align:left;font-family:Helvetica, sans-serif;font-size:0.6rem;width:80%;}
+      @keyframes spin {0% { transform: rotate(0deg); }100% { transform: rotate(360deg); }}
+      .quote { text-align:center;position:absolute; z-index: 92; color:white;top:60%;left:5%;font-family:Helvetica;font-size:100%;line-height: 30px; width:85%; padding:10px; margin-bottom:50px;}
+      .quoteswidget a { color:white;text-decoration:none;}
+      .branding {position:absolute;z-index: 93;width:100%;padding:10px;bottom:10px;text-align:center;}
+      .branding a {text-decoration:none;color: white;font-size:0.5rem;font-family:Helvetica, sans-serif;}
+      .backgroundimg {width:427px;height:640px;z-index: 91;padding-top: 3px;object-fit:fill;}
+      .overlay {position: absolute;top: 0;bottom: 0;left: 0;right: 0;opacity: 1;background-color: rgba(0, 0, 0, 0.4);overflow:hidden;}
+      @media only screen and (max-width: 600px) {.backgroundimg {width:286px;height:427px;}.quoteswidget {width:286px;height:427px;}.quote {font-size: 80%;line-height: 20px;}}
