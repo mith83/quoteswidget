@@ -19,6 +19,6 @@
       .quoteswidget a { color:white;text-decoration:none;}
       .branding {position:absolute;z-index: 93;width:100%;padding:10px;bottom:10px;text-align:center;}
       .branding a {text-decoration:none;color: white;font-size:0.5rem;font-family:Helvetica, sans-serif;}
-      .backgroundimg {width:640px;height:427px;z-index: 91;padding-top: 3px;object-fit:fill;}
+      .backgroundimg {width:640px;height:427px;;aspect-ratio:640/427;z-index: 91;padding-top: 3px;object-fit:fill;}
       .overlay {position: absolute;top: 0;bottom: 0;left: 0;right: 0;opacity: 1;background-color: rgba(0, 0, 0, 0.4);overflow:hidden;}
-      @media only screen and (max-width: 600px) {.backgroundimg {width:320px;height:213.5px;}.quoteswidget {width:320px;height:213.5px;}.quote {font-size: 50%;line-height: 15px;}}
+      @media only screen and (max-width: 600px) {.backgroundimg {width:320px;height:213.5px;aspect-ratio:320/213.5}.quoteswidget {width:320px;height:213.5px;}.quote {font-size: 50%;line-height: 15px;}}
